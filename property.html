@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- icons cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/bootstrap-icons.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg">
+    <!-- google-fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Property Listing</title>
+
+</head>
+<body>
+
+    <div class="container-xxl bg-white p-0">
+        <!---------------------------------------------- Nav Bar ---------------------------------------------------------------->
+                <div class="container-fluid nav-bar">
+                        <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
+                            <a class="navbar-brand d-flex align-items-center text-center" href="#">
+                                <h1 class="m-0 nav-bar">Makaan</h1>
+                            </a>
+                            <!-- button for responsive design  -->
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <div class="navbar-nav ms-auto me-auto">
+                                
+                                <!-- menu-items  -->
+                                <ul class="navbar-nav text-white">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="property.html">Property</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="team.html">Our Project</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="testimonial.html">Testimonial</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+        
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+<!---------------------------------------------- Header Section  -------------------------------------------------------->
+<div class="container-fluid header bg-white p-0">
+    <div class="row g-0 align-item-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 p-5 mt-lg-5 left-side">
+            <h1 class="display-5 animated fadeIn mb-4 fw-bold">
+                Find A <span class="">Perfect Home</span> To Live With Your Family
+            </h1>
+            <p class="animated fadeIn mb-4 pb-2">We bring your dream home to life, offering design, construction, and project management expertise. We deliver exceptional quality and personalized attention to detail, from luxurious bungalows to stylish apartments. Let us turn your vision into a beautiful reality.</p>
+            <!-- button  -->
+            <a href="" class="py-3 px-5 me-3 animated fadeIn button1">Get Started</a>
+        </div>
+        <!-- Owl carousel  -->
+
+        <div class="col-md-6 animated fadeIn">
+            <div class="owl-carousel header-carousel">
+                <!-- 1st item  -->
+                <div class="pwl-carousel-item">
+                    <!-- image  -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carousel1.avif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://d3oo9u3p09egds.cloudfront.net/filters:format(webp)/rental_property/colina-villa-h/01_Facade__10_.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev btn-icon btn-icon1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon icons rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next btn-icon btn-icon2" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon icons" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!----------------------------------------------- Header Ends  ---------------------------------------------------------->
+
+<!---------------------------------------------- Search Start  --------------------=================--------------------->
+
+<div class="container-fluid search-container mb-5 wow fadeIn" style="padding: 35px;">
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-md-10">
+                <div class="row g-2">
+                    <div class="col-md-4">
+
+                        <!-- input box -->
+                        <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <!-- select box -->
+                        <select class="form-select border-0 py-3">
+                            <option selected>Property Type</option>
+                            <option value="1">Home</option>
+                            <option value="2">Office</option>
+                            <option value="3">Appartment</option>
+                            <option value="3">Villa</option>
+                            <option value="3">Restaurant</option>
+                            <option value="3">Plot</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <!-- select box -->
+                        <select class="form-select border-0 py-3">
+                            <option selected>Location</option>
+                            <option value="1">Bahria Town Karachi</option>
+                            <option value="2">DHA Phase 6</option>
+                            <option value="3">Clifton</option>
+                            <option value="3">Shaheed-e-Millat</option>
+                            <option value="3">PECHS</option>
+                            <option value="3">2 Talwar</option>
+                        </select>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <!-- button  -->
+            <div class="col-md-2">
+                <button class="btn button2 w-100 py-">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------- Property List  ----------------------------------------------------------->
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-0 gx-5 align-items-end">
+            <div class="col-lg-6">
+                <div class="text-start mx-auto mb-5 wow slideInLeft">
+                    <h1 class="mb-3 fw-bold">Discover <span>Popular</span> Listing</h1>
+                    <p>Explore our curated selection of houses, flats, plots, and rooms in vibrant metropolitan Karachi City. Find your dream property today!</p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-start text-lg-end wow slideInRight">
+                <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+
+                    <li class="nav-item me-2">
+                        <a href="#tab-1" class="btn btn-outline-primary active" data-bs-toggle="pill">Featured</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#tab-2" class="btn btn-outline-primary" data-bs-toggle="pill">For Sell</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#tab-3" class="btn btn-outline-primary" data-bs-toggle="pill">For Rent</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+<!------------------------------------------------- tab content  -------------------------------------------------------->
+
+<div class="tab-content">
+    <div id="tab-1" class="tab-pane fade show p-0 active">
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/carousel2.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Banglow</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 2.50 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">Brand New Banglow House</a>
+                        <p class="text-secondary me-2">DHA Phase 2 Karachi</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/type2.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">House</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 32.80 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">Luxury House For Sell</a>
+                        <p class="text-secondary me-2">PECHS</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="https://images1.apartments.com/i2/j4fy-cP8ud0hykiWocqUy_09bB0QzId8svh-rU3qnvw/117/hq-san-francisco-ca-building-photo.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Banglow</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 20 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">511 Yard Bungalow For Sale</a>
+                        <p class="text-secondary me-2">DHA Phase 5 Badban Street</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/carousel1.avif" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Appartment</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 1.20 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">Luxury Appartment For Rent</a>
+                        <p class="text-secondary me-2">New York USA</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/Project type 1.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Villa</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 13.50 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">Brand New Villa For Sell</a>
+                        <p class="text-secondary me-2">DHA </p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/carousel3.webp" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Home</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 52 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">House For Sell</a>
+                        <p class="text-secondary me-2">2 Talwar</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="https://panoramic-village.com/wp-content/uploads/2021/06/Appartment-40-m%C2%B2-Communiquant-4.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Villa</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 60 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">Banglow For Rent</a>
+                        <p class="text-secondary me-2">Bahria Town</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="https://yestayhomes.com/sites/default/files/styles/property_page_slider/public/residence/896/1.jpg?itok=Vb3IEdMG" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Villa</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 80 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">511 Yard Villa For Rent in DHA</a>
+                        <p class="text-secondary me-2">DHA Phase 2</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/02.webp" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Appartment</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 2.0 CR</h5>
+                        <a href="" class="d-block h5 mb-2">Appartment for Sale in Karachi</a>
+                        <p class="text-secondary me-2">Bahria Town Karachi</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/03.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">House</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 32 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">500 Yards House For Sale</a>
+                        <p class="text-secondary me-2">Phase 6 Rahat Streets</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/04.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">House</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR. 80.50 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">House for Sale in DHA 500 Yard</a>
+                        <p class="text-secondary me-2">DHA Phase 6</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/05.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Appartment</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 3.50 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">4 Bed Apartment For Rent</a>
+                        <p class="text-secondary me-2">Creek Vista</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+<!----------------------- #tab-2 ------------------>
+
+    <div id="tab-2" class="tab-pane fade show p-0">
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/Project type 1.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Banglow</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 42.09 Cr</h5>
+                        <a href="" class="d-block h5 mb-2">Bungalow For Sale 500 Yards</a>
+                        <p class="text-secondary me-2">DHA Phase 6, J Street</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------ tab-3-------------------->
+
+    <div id="tab-3" class="tab-pane fade show p-0">
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/02.webp" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Home</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 7.00 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">1200 SQ Yards Bungalow for Rent</a>
+                        <p class="text-secondary me-2">Bahadur Yar Jang CHS Karachi</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1200 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 wow fadeIn">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href=""><img src="images/03.jpg" alt="" class="img-fluid"></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+
+                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 max-4 pt-1 px-3">Villa</div>
+                    </div>
+
+                    <div class="p-4 pb-0">
+                        <h5 class="text-primary mb-3">PKR 8.00 Lac</h5>
+                        <a href="" class="d-block h5 mb-2">1200 SQ Yards Bungalow for Rent
+                        </a>
+                        <p class="text-secondary me-2">Clifton Block 2 Karachi</p>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1200 Sqft</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<!--------------------------------------------------------- Footer Section ------------------------------------------->
+
+<div class="container-fluid text-white-50 footer pt-5 mt-5 wow fadeIn">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-4">Get In Touch</h5>
+                <p class="mb-2"><i class="fa fa-location me-3"></i> 123 Street New York, USA</p>
+
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> +92 0123 45679</p>
+
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> example@gmail.com</p>
+
+                <div class="d-flex pt-2">
+
+                    <a href="" class="btn btn-outline-light btn-social btn-social-twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="btn btn-outline-light btn-social btn-social-facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="btn btn-outline-light btn-social btn-social-youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="" class="btn btn-outline-light btn-social btn-social-linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-4">Quick Links</h5>
+                
+                <a href="" class="btn btn-link text-white-50">About Us</a>
+                <a href="" class="btn btn-link text-white-50">Contact Us</a>
+                <a href="" class="btn btn-link text-white-50">Our Services</a>
+                <a href="" class="btn btn-link text-white-50">Privacy Policy</a>
+                <a href="" class="btn btn-link text-white-50">Terms & Conditions</a>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-4">Newsletter</h5>
+                <p>Makaan Estate is a dedicated team of professionals committed to delivering exceptional real estate services to our clients.</p>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input type="text" class="form-relative bg-transparent w-100 py-3 ps-4 pe-5" placeholder="Your Email">
+                    <button class="btn footer-button py-2 position-absolute top-0 end-0 mt-2 me-2" type="button">SignUp</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--------------- Copyright -------------->
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="" class="border-bottom">Makaan</a> | All Right Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
